@@ -1,0 +1,2 @@
+# Local Day 1 + Day 2 runtime and test dependencies (no cloud SDKs/models).
+-r requirements-day1.txt

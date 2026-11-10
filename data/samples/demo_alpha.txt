@@ -1,0 +1,15 @@
+SYNTHETIC DEVELOPMENT FIXTURE — NOT CLINICAL GUIDANCE
+Title: Fictional Alpha Reference
+Test name: Fictional Alpha
+Test code: DEMO-ALPHA
+Provider: LabRAG Fictional Laboratory
+Source: Local synthetic fixture, revision 1
+
+Specimen
+[SPECIMEN PLACEHOLDER — no clinical requirement supplied]
+
+Preparation
+[PREPARATION PLACEHOLDER — no patient instruction supplied]
+
+Handling
+[HANDLING PLACEHOLDER — not for patient care]

@@ -1,0 +1,11 @@
+LABRAG SYNTHETIC TEACHING REFERENCE — NOT FOR CLINICAL USE
+
+Demo laboratory test
+Provider: LabRAG synthetic teaching fixture
+
+Specimen handling
+The fictional Demo laboratory test requires a purple demonstration container.
+This is a synthetic statement for testing evidence retrieval, not a real specimen requirement.
+
+Limitations
+No real reference interval, clinical interpretation, or patient guidance is supplied.

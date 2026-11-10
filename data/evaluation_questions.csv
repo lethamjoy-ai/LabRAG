@@ -1,0 +1,21 @@
+question_id,question,category,expected_document_id,expected_section,expected_answer,answerable
+Q01,What specimen type is required for the selected laboratory test?,specimen_requirements,,,,
+Q02,What collection container does the selected provider specify?,specimen_requirements,,,,
+Q03,What minimum specimen volume is documented?,specimen_requirements,,,,
+Q04,What patient preparation does the source require?,patient_preparation,,,,
+Q05,Does the reference specify fasting and what duration does it document?,patient_preparation,,,,
+Q06,What collection timing is documented for this test?,collection_instructions,,,,
+Q07,What collection procedure does the selected laboratory describe?,collection_instructions,,,,
+Q08,What labeling requirements appear in the source?,collection_instructions,,,,
+Q09,What transport conditions are specified by this provider?,sample_handling,,,,
+Q10,What processing steps are documented before transport?,sample_handling,,,,
+Q11,What storage temperature and duration are listed together?,specimen_stability,,,,
+Q12,What stability limits differ by specimen type in the source table?,specimen_stability,,,,
+Q13,What reasons for specimen rejection are explicitly listed?,rejection_criteria,,,,
+Q14,How does the source describe hemolysis as a rejection limitation?,rejection_criteria,,,,
+Q15,What interpretation cautions are provided for the selected test?,clinical_interpretation,,,,
+Q16,Which population and method qualify the documented reference values?,clinical_interpretation,,,,
+Q17,Where do the selected providers disagree on collection or handling requirements?,cross_document,,,,
+Q18,What is the definitive diagnosis for a patient whose records were never uploaded?,insufficient_evidence,,,,false
+Q19,What collection requirement is stated in an unavailable private laboratory protocol?,insufficient_evidence,,,,false
+Q20,What will a laboratory revision that has not yet been published require?,insufficient_evidence,,,,false

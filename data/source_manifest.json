@@ -1,0 +1,9 @@
+[
+  {
+    "filename": "demo_lab_reference.txt",
+    "test_name": "Demo laboratory test",
+    "provider": "LabRAG synthetic teaching fixture",
+    "source_url": "https://example.org/labrag/demo",
+    "metadata": {"synthetic": true, "version": "1", "note": "Teaching fixture; not clinical guidance"}
+  }
+]

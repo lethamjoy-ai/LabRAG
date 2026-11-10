@@ -1,0 +1,161 @@
+{
+  "provenance": {
+    "openai_report": "20261107T075325_6261b6af72",
+    "previous_extractive_report": "20261106T075303_624a0c1d52",
+    "question_id": "TC01.1",
+    "question": "What specimen is required for BUN?",
+    "note": "Public catalog source text and exact source-matching selected excerpts only. Historical reports unchanged."
+  },
+  "cases": [
+    {
+      "strategy": "fixed",
+      "sources": {
+        "S1": {
+          "text": "BUN     Blood Urea Nitrogen (BUN), Serum\n81793\n             Specimen Requirements:\n\n               Collection Container/Tube:\n\n               Preferred: Serum gel\n\n               Acceptable: Red top\n\n              Submission Container/Tube: Plastic vial\n\n             Specimen Volume: 0.5 mL\n\n               Collection Instructions:",
+          "text_sha256": "beccf9d92afa66116d32c65250676021f91c5c50652dd8b574c84171a63146ca",
+          "metadata": {
+            "test_code": "BUN",
+            "test_name": "Blood Urea Nitrogen (BUN), Serum",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "501",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "a6b99946e3a87f6b6847d0eb6684f3f0e4673ddada33fff026d92f1fe15571af",
+            "page_number": 2.0,
+            "original_page_number": 502.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S2": {
+          "text": "\n\n               Collection Instructions:\n\n                  1. Serum gel tubes should be centrifuged within 2 hours of collection.\n\n                  2. Red-top tubes should be centrifuged, and the serum aliquoted into a plastic vial\n                within 2 hours of collection.\n\n             Specimen Minimum Volume: See Specimen Required\n               Transport Temperature:",
+          "text_sha256": "a205ad2a16d09e7cd41f177380258e2e7e8a21d6b8b032e0477e1fa62412ff38",
+          "metadata": {
+            "test_code": "BUN",
+            "test_name": "Blood Urea Nitrogen (BUN), Serum",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "501",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "86f98b9dc8532126f6e74722a356be786773b8ab54dafe7c6ba3011b77b33be9",
+            "page_number": 2.0,
+            "original_page_number": 502.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S3": {
+          "text": "\n\n                 Specimen Type        Temperature         Time\n                Serum                  Refrigerated (preferred) 7 days\n                                       Frozen              365 days\n\n           CPT Code Information:\n\n             84520\n\n",
+          "text_sha256": "026f0fd83550718affaa5d3b6194703f8d7578c4758a99cfc344640e0b44eba9",
+          "metadata": {
+            "test_code": "BUN",
+            "test_name": "Blood Urea Nitrogen (BUN), Serum",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "501",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "7b05bfcbbad4097875ae9cf3c9d038b34b7a83dcc42ed1a497cbf6e2c193e3db",
+            "page_number": 2.0,
+            "original_page_number": 502.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        }
+      },
+      "selected_openai_excerpts": [
+        {
+          "source_id": "S1",
+          "quote": "BUN     Blood Urea Nitrogen (BUN), Serum\n81793\n             Specimen Requirements:\n\n               Collection Container/Tube:\n\n               Preferred: Serum gel\n\n               Acceptable: Red top\n\n              Submission Container/Tube: Plastic vial\n\n             Specimen Volume: 0.5 mL\n\n               Collection Instructions:"
+        }
+      ],
+      "selected_previous_extractive_excerpts": [
+        {
+          "source_id": "S1",
+          "quote": "BUN     Blood Urea Nitrogen (BUN), Serum\n81793\n             Specimen Requirements:\n\n               Collection Container/Tube:\n\n               Preferred: Serum gel\n\n               Acceptable: Red top\n\n              Submission Container/Tube: Plastic vial\n\n             Specimen Volume: 0.5 mL\n\n               Collection Instructions:"
+        },
+        {
+          "source_id": "S3",
+          "quote": "\n\n                 Specimen Type        Temperature         Time\n                Serum                  Refrigerated (preferred) 7 days\n                                       Frozen              365 days\n\n           CPT Code Information:\n\n             84520\n\n"
+        }
+      ]
+    },
+    {
+      "strategy": "section",
+      "sources": {
+        "S1": {
+          "text": "             Specimen Requirements:\n\n               Collection Container/Tube:\n\n               Preferred: Serum gel\n\n               Acceptable: Red top\n\n              Submission Container/Tube: Plastic vial\n\n             Specimen Volume: 0.5 mL\n\n",
+          "text_sha256": "5bae5a04f7fb4b4942f350d9591123c6d970d90d5eb8321c27ded3aa3bb3c461",
+          "metadata": {
+            "test_code": "BUN",
+            "test_name": "Blood Urea Nitrogen (BUN), Serum",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "501",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "209f3572bbe9c1643da2afbabafd0dc53ec59b33545539cdc9b52f14ca617b53",
+            "page_number": 2.0,
+            "original_page_number": 502.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S2": {
+          "text": "               Collection Instructions:\n\n                  1. Serum gel tubes should be centrifuged within 2 hours of collection.\n\n                  2. Red-top tubes should be centrifuged, and the serum aliquoted into a plastic vial\n                within 2 hours of collection.\n\n             Specimen Minimum Volume: See Specimen Required\n               Transport Temperature:\n\n",
+          "text_sha256": "fd0ad1a656ea0be128e78db2ac453a12cde4c5ed45b18a1e0dc145cfdf78cc7c",
+          "metadata": {
+            "test_code": "BUN",
+            "test_name": "Blood Urea Nitrogen (BUN), Serum",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "501",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "1f3e20339407fe7c5490572b85391dc8da8546c0cb7beeec2ed86618621bd23a",
+            "page_number": 2.0,
+            "original_page_number": 502.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S3": {
+          "text": "                 Specimen Type        Temperature         Time\n                Serum                  Refrigerated (preferred) 7 days\n                                       Frozen              365 days\n",
+          "text_sha256": "ea76ca142f5df9efa2a25778f6c45e8d46b2b93be35ddb633949d05ee6cffe53",
+          "metadata": {
+            "test_code": "BUN",
+            "test_name": "Blood Urea Nitrogen (BUN), Serum",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "501",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "97d9a68b4f0b3a0472dd386ff4cdfb9e064e8973a81ca15f1ab9b147adf7f580",
+            "page_number": 2.0,
+            "original_page_number": 502.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        }
+      },
+      "selected_openai_excerpts": [
+        {
+          "source_id": "S1",
+          "quote": "             Specimen Requirements:\n\n               Collection Container/Tube:\n\n               Preferred: Serum gel\n\n               Acceptable: Red top\n\n              Submission Container/Tube: Plastic vial\n\n             Specimen Volume: 0.5 mL\n\n"
+        }
+      ],
+      "selected_previous_extractive_excerpts": [
+        {
+          "source_id": "S1",
+          "quote": "             Specimen Requirements:\n\n               Collection Container/Tube:\n\n               Preferred: Serum gel\n\n               Acceptable: Red top\n\n              Submission Container/Tube: Plastic vial\n\n             Specimen Volume: 0.5 mL\n\n"
+        },
+        {
+          "source_id": "S3",
+          "quote": "                 Specimen Type        Temperature         Time\n                Serum                  Refrigerated (preferred) 7 days\n                                       Frozen              365 days\n"
+        }
+      ]
+    }
+  ]
+}

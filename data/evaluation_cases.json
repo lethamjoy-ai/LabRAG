@@ -1,0 +1,7 @@
+[
+  {
+    "question": "According to the synthetic teaching reference, what container does the Demo laboratory test require?",
+    "expected_sources": ["https://example.org/labrag/demo"],
+    "expected_terms": ["purple", "demonstration", "synthetic"]
+  }
+]

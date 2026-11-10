@@ -1,0 +1,15 @@
+SYNTHETIC DEVELOPMENT FIXTURE — NOT CLINICAL GUIDANCE
+Title: Fictional Gamma Reference
+Test name: Fictional Gamma
+Test code: DEMO-GAMMA
+Provider: LabRAG Fictional Laboratory
+Source: Local synthetic fixture, revision 1
+
+Specimen information
+[PLACEHOLDER FOR FUTURE PERMITTED SOURCE CONTENT]
+
+Preparation instructions
+[NO CLINICAL INSTRUCTIONS PROVIDED]
+
+Handling requirements
+[NO CLINICAL REQUIREMENTS PROVIDED]

@@ -1,0 +1,9 @@
+streamlit>=1.40,<2
+langchain-core>=1.0,<2
+langchain-text-splitters>=1.0,<2
+tiktoken>=0.9,<1
+PyMuPDF>=1.26,<2
+beautifulsoup4>=4.13,<5
+pandas>=2.2,<4
+python-dotenv>=1.1,<2
+pytest>=8,<10

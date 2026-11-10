@@ -1,0 +1,46 @@
+# LabRAG — RAG Retrieval and Answer Quality Evaluation
+
+Run: `20261103T004435_prepared_bd27dd7d` · Mode: **not_run / retrieval** · Status: Not Tested
+
+Objective: compare A fixed top-k, B section top-k, C fixed candidates reranked to k, and D section candidates reranked to k under identical rules.
+
+Corpus: the specified partial Mayo catalog, not the complete Mayo catalog. Clinical facts are source-verified separately from workflow tests. Mock runs measure only synthetic fixture behavior.
+
+Dataset fingerprint: `117051d2216c864e60d0d316e6bc40c04369589e2539d684ef4cdeeb7c4fc0c2`. Question subset: `['TC01.1', 'TC02.1', 'TC03.1', 'TC04.1', 'TC05.1', 'TC06.1', 'TC07.1', 'TC08.1', 'TC09.1', 'TC10.1', 'TC11.1', 'TC12.1', 'TC13.1', 'TC13.2', 'TC14.1', 'TC14.2', 'TC15.1', 'TC15.2', 'TC16.1', 'TC16.2', 'TC16.3', 'TC16.4', 'TC17.1', 'TC18.1', 'TC19.1', 'TC20.1']`.
+
+Ground truth: verified positive chunk pools per namespace. Local snapshot labels do not prove cloud completeness. Whole-catalog document hits are not used as a relevance shortcut.
+
+Metrics: Hit Rate = any known relevant item in top-k; MRR = reciprocal first relevant rank; Precision = known relevant / unique actual returned count. Exact Recall requires exhaustive labels. Judged-pool recall uses only known positives and is not exact Recall. Unjudged results may also be relevant.
+
+Parameters: `{"candidate_count": 15, "configurations": ["A", "B", "C", "D"], "filters": {}, "judge": false, "mode": "retrieval", "question_ids": ["TC01.1", "TC02.1", "TC03.1", "TC04.1", "TC05.1", "TC06.1", "TC07.1", "TC08.1", "TC09.1", "TC10.1", "TC11.1", "TC12.1", "TC13.1", "TC13.2", "TC14.1", "TC14.2", "TC15.1", "TC15.2", "TC16.1", "TC16.2", "TC16.3", "TC16.4", "TC17.1", "TC18.1", "TC19.1", "TC20.1"], "top_k": 5}`.
+
+Models/prompt: `{"embedding_dimension": 384, "embedding_model": "sentence-transformers/all-MiniLM-L6-v2", "llm_model": "openai/gpt-oss-120b", "max_output_tokens": 1200, "prompt_version": "c6bc23bb7e9ea181389da466573956ea4d56986dafe01d931ed8845122e903c2", "reranker_model": "cross-encoder/ms-marco-MiniLM-L6-v2", "temperature": 0.0}`.
+
+| Configuration | Scored questions | Hit Rate | MRR | Precision | Exact Recall | Judged-pool Recall | Pipeline seconds |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| A | 0 | Not measured | Not measured | Not measured | Not measured | Not measured | Not measured |
+| B | 0 | Not measured | Not measured | Not measured | Not measured | Not measured | Not measured |
+| C | 0 | Not measured | Not measured | Not measured | Not measured | Not measured | Not measured |
+| D | 0 | Not measured | Not measured | Not measured | Not measured | Not measured | Not measured |
+
+Faithfulness uses conservative claim checks against cited passages. Numeric contradictions require the same labeled field; missing support is not proof of falsehood. Ambiguous claims need human review. Optional Groq judgments are recorded as estimates and do not replace deterministic scores.
+
+Citation validity checks source/chunk/document/test/page identity; citation support independently checks associated claims. Abstention and empty answers are not counted as perfect faithfulness. Mock functional passes, retrieval quality, faithfulness and citation support are distinct.
+
+Latency includes initial search through reranking for retrieval pipeline time; full RAG additionally records generation and end-to-end time. Model cold load is included when it occurs. Execution order, caches and hardware affect latency; temperature zero does not guarantee deterministic generation. p50/p95 require at least 20 scored queries per configuration.
+
+Charts: the Streamlit Day 5 dashboard renders Plotly comparisons from this run's computed summary; unavailable metrics remain absent.
+
+## Failure analysis
+
+No failures observed in executed records; unexecuted cases are not implied successful.
+
+Reranking regressions: [].
+
+Recommended configuration: no automatic winner is asserted. Compare the same scored question set, quality differences and measured latency; synthetic runs cannot justify a Mayo production recommendation. Reranking remains off by default.
+
+Known limitations: positive-pool labels can miss relevant paraphrases; metadata may be unresolved; lexical checks are not clinical entailment; cloud corpus state can diverge from local snapshots; safety/negative cases are excluded from ranking averages.
+
+Day 6: review failures with the current official catalog, explicitly run live comparisons if desired, obtain human labels for ambiguous claims, and prepare final tests/documentation/demo. No Day 6 implementation is included.
+
+LabRAG is an educational laboratory reference assistant. Verify specimen collection and handling instructions against the current official laboratory test catalog before clinical use.

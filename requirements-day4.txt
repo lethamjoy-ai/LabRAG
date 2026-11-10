@@ -1,0 +1,4 @@
+-r requirements-day3.txt
+langchain-groq>=1.0,<2
+langgraph>=1.0,<2
+pydantic>=2,<3

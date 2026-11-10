@@ -1,0 +1,595 @@
+{
+  "provenance": {
+    "report": "20261106T075303_624a0c1d52",
+    "note": "Exact public catalog passages and saved source-matching selections. No current LangSmith chat export available."
+  },
+  "cases": [
+    {
+      "question_id": "TC09.1",
+      "question": "How should a calprotectin fecal specimen be collected and stored?",
+      "configuration": "A",
+      "sources": {
+        "S1": {
+          "text": "\n\n                  Specimen Volume: 5 g\n\n                     Collection Instructions:\n\n                        1. Collect a fresh random fecal specimen, no preservatives.\n\n                        2. If specimen is sent refrigerate, send immediately after collection.\n\n                        3. If specimen cannot be sent immediately, freeze specimen, and send frozen.\n\n                    Additional Information:",
+          "text_sha256": "d67a59c1e15d057ae86400157830939629c85eee5d8b20f28dc22cdd60431026",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "594",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "430e5c4b9d1c7a937f47098093be43fe19d6d0da09d7ebe4964fdc81d8633a5b",
+            "page_number": 95.0,
+            "original_page_number": 595.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S2": {
+          "text": "  CALPR   Calprotectin, Feces\n     63016\n                 Specimen Requirements:\n\n                     Supplies: Stool container, Small (Random), 4 oz Random (T288)\n\n                  Submission Container/Tube: Stool container\n\n                  Specimen Volume: 5 g\n\n                     Collection Instructions:",
+          "text_sha256": "272eed2dc58928687dcd2f813ecfd51ffd14828e02adf861770dd2af2ab9ec59",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "594",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "17b4f70b43999758cc2ac83b413c254bb9619307fe4d31b8fd3cbff70d7a2b7e",
+            "page_number": 95.0,
+            "original_page_number": 595.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S3": {
+          "text": "1. Separate specimens must be submitted when multiple tests are ordered, with the\n                     exception of ELASF / Pancreatic Elastase, Feces. If only a single specimen is collected,\n                             it must be split prior to transport.\n\n                        2. Testing cannot be added on to a previously collected specimen.\n\n      Specimen Minimum Volume: 1 g\n       Transport Temperature:",
+          "text_sha256": "be6c3fa9d8aefa93d846305eab1db96d7e6641372d06eeebbad9a91f8e7fe7a8",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "595",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "721a83686938d0fe59e99ba1c27f4c27333ae0f806449e1ca330d1abca0626ea",
+            "page_number": 96.0,
+            "original_page_number": 596.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S4": {
+          "text": "\n\n      Specimen Minimum Volume: 1 g\n       Transport Temperature:\n\n        Specimen Type        Temperature         Time\n         Fecal                 Frozen (preferred)     7 days\n                                 Refrigerated          72 hours\n\n     CPT Code Information:\n\n      83993\n\n",
+          "text_sha256": "b9e1f5c052d515888ff630e903e48471ed0bdd4247c8adf2ee3b19f6f5519bbd",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "595",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "830602cf2858a6aaf86a61e361d9af7e701e9d4956b1b80db7271ac4d342da71",
+            "page_number": 96.0,
+            "original_page_number": 596.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        }
+      },
+      "selected_excerpts": [
+        {
+          "source_id": "S1",
+          "quote": "\n\n                  Specimen Volume: 5 g\n\n                     Collection Instructions:\n\n                        1. Collect a fresh random fecal specimen, no preservatives.\n\n                        2. If specimen is sent refrigerate, send immediately after collection.\n\n                        3. If specimen cannot be sent immediately, freeze specimen, and send frozen.\n\n                    Additional Information:"
+        },
+        {
+          "source_id": "S4",
+          "quote": "\n\n      Specimen Minimum Volume: 1 g\n       Transport Temperature:\n\n        Specimen Type        Temperature         Time\n         Fecal                 Frozen (preferred)     7 days\n                                 Refrigerated          72 hours\n\n     CPT Code Information:\n\n      83993\n\n"
+        }
+      ]
+    },
+    {
+      "question_id": "TC09.1",
+      "question": "How should a calprotectin fecal specimen be collected and stored?",
+      "configuration": "B",
+      "sources": {
+        "S1": {
+          "text": "                     Collection Instructions:\n\n                        1. Collect a fresh random fecal specimen, no preservatives.\n\n                        2. If specimen is sent refrigerate, send immediately after collection.\n\n                        3. If specimen cannot be sent immediately, freeze specimen, and send frozen.\n\n                    Additional Information:\n\n",
+          "text_sha256": "d1ba7939409cd556f601371127db78525be012c99b4a92d03ce099d92b76661c",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "594",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "da1ed1da18fccc2bca1d835d2d62465d9c0883263c1225c8971166404d2b35fb",
+            "page_number": 95.0,
+            "original_page_number": 595.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S2": {
+          "text": "        Specimen Type        Temperature         Time\n         Fecal                 Frozen (preferred)     7 days\n                                 Refrigerated          72 hours\n",
+          "text_sha256": "a1d6577a010832359222fe20ff3bbf9840d9aad0e7a239e3d4179423ef28c891",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "595",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "19b6ba851d190d0e7d10fb1c9c564408d297a2a75c716275d92112f84af9dad7",
+            "page_number": 96.0,
+            "original_page_number": 596.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S3": {
+          "text": "1. Separate specimens must be submitted when multiple tests are ordered, with the\n                     exception of ELASF / Pancreatic Elastase, Feces. If only a single specimen is collected,\n                             it must be split prior to transport.\n\n                        2. Testing cannot be added on to a previously collected specimen.\n\n      Specimen Minimum Volume: 1 g\n       Transport Temperature:\n\n",
+          "text_sha256": "5ec00a67c60b8801724a12d6f9ecceb9296cfb6e80fc53807d72c1f32f79d643",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "595",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "ec1ea66038ae6ca327ed685237d2b10dcba382d020fe723a002716d148d5bf83",
+            "page_number": 96.0,
+            "original_page_number": 596.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S4": {
+          "text": "                 Specimen Requirements:\n\n                     Supplies: Stool container, Small (Random), 4 oz Random (T288)\n\n                  Submission Container/Tube: Stool container\n\n                  Specimen Volume: 5 g\n\n",
+          "text_sha256": "ca8986ec4ce678d6d32dd5df591d48de41c567d0d7242008a3cd960bd99991b2",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "594",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "ba9aaf87a4259494c8ceab7c5650f8db0c553587f7c118c54a865a42ab79ad7d",
+            "page_number": 95.0,
+            "original_page_number": 595.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        }
+      },
+      "selected_excerpts": [
+        {
+          "source_id": "S1",
+          "quote": "                     Collection Instructions:\n\n                        1. Collect a fresh random fecal specimen, no preservatives.\n\n                        2. If specimen is sent refrigerate, send immediately after collection.\n\n                        3. If specimen cannot be sent immediately, freeze specimen, and send frozen.\n\n                    Additional Information:\n\n"
+        },
+        {
+          "source_id": "S2",
+          "quote": "        Specimen Type        Temperature         Time\n         Fecal                 Frozen (preferred)     7 days\n                                 Refrigerated          72 hours\n"
+        },
+        {
+          "source_id": "S4",
+          "quote": "                 Specimen Requirements:\n\n                     Supplies: Stool container, Small (Random), 4 oz Random (T288)\n\n                  Submission Container/Tube: Stool container\n\n                  Specimen Volume: 5 g\n\n"
+        }
+      ]
+    },
+    {
+      "question_id": "TC09.1",
+      "question": "How should a calprotectin fecal specimen be collected and stored?",
+      "configuration": "C",
+      "sources": {
+        "S2": {
+          "text": "  CALPR   Calprotectin, Feces\n     63016\n                 Specimen Requirements:\n\n                     Supplies: Stool container, Small (Random), 4 oz Random (T288)\n\n                  Submission Container/Tube: Stool container\n\n                  Specimen Volume: 5 g\n\n                     Collection Instructions:",
+          "text_sha256": "272eed2dc58928687dcd2f813ecfd51ffd14828e02adf861770dd2af2ab9ec59",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "594",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "17b4f70b43999758cc2ac83b413c254bb9619307fe4d31b8fd3cbff70d7a2b7e",
+            "page_number": 95.0,
+            "original_page_number": 595.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S1": {
+          "text": "\n\n                  Specimen Volume: 5 g\n\n                     Collection Instructions:\n\n                        1. Collect a fresh random fecal specimen, no preservatives.\n\n                        2. If specimen is sent refrigerate, send immediately after collection.\n\n                        3. If specimen cannot be sent immediately, freeze specimen, and send frozen.\n\n                    Additional Information:",
+          "text_sha256": "d67a59c1e15d057ae86400157830939629c85eee5d8b20f28dc22cdd60431026",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "594",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "430e5c4b9d1c7a937f47098093be43fe19d6d0da09d7ebe4964fdc81d8633a5b",
+            "page_number": 95.0,
+            "original_page_number": 595.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S3": {
+          "text": "1. Separate specimens must be submitted when multiple tests are ordered, with the\n                     exception of ELASF / Pancreatic Elastase, Feces. If only a single specimen is collected,\n                             it must be split prior to transport.\n\n                        2. Testing cannot be added on to a previously collected specimen.\n\n      Specimen Minimum Volume: 1 g\n       Transport Temperature:",
+          "text_sha256": "be6c3fa9d8aefa93d846305eab1db96d7e6641372d06eeebbad9a91f8e7fe7a8",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "595",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "721a83686938d0fe59e99ba1c27f4c27333ae0f806449e1ca330d1abca0626ea",
+            "page_number": 96.0,
+            "original_page_number": 596.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S4": {
+          "text": "\n\n      Specimen Minimum Volume: 1 g\n       Transport Temperature:\n\n        Specimen Type        Temperature         Time\n         Fecal                 Frozen (preferred)     7 days\n                                 Refrigerated          72 hours\n\n     CPT Code Information:\n\n      83993\n\n",
+          "text_sha256": "b9e1f5c052d515888ff630e903e48471ed0bdd4247c8adf2ee3b19f6f5519bbd",
+          "metadata": {
+            "test_code": "CALPR",
+            "test_name": "Calprotectin, Feces",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "595",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "830602cf2858a6aaf86a61e361d9af7e701e9d4956b1b80db7271ac4d342da71",
+            "page_number": 96.0,
+            "original_page_number": 596.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        }
+      },
+      "selected_excerpts": [
+        {
+          "source_id": "S2",
+          "quote": "  CALPR   Calprotectin, Feces\n     63016\n                 Specimen Requirements:\n\n                     Supplies: Stool container, Small (Random), 4 oz Random (T288)\n\n                  Submission Container/Tube: Stool container\n\n                  Specimen Volume: 5 g\n\n                     Collection Instructions:"
+        },
+        {
+          "source_id": "S1",
+          "quote": "\n\n                  Specimen Volume: 5 g\n\n                     Collection Instructions:\n\n                        1. Collect a fresh random fecal specimen, no preservatives.\n\n                        2. If specimen is sent refrigerate, send immediately after collection.\n\n                        3. If specimen cannot be sent immediately, freeze specimen, and send frozen.\n\n                    Additional Information:"
+        },
+        {
+          "source_id": "S4",
+          "quote": "\n\n      Specimen Minimum Volume: 1 g\n       Transport Temperature:\n\n        Specimen Type        Temperature         Time\n         Fecal                 Frozen (preferred)     7 days\n                                 Refrigerated          72 hours\n\n     CPT Code Information:\n\n      83993\n\n"
+        }
+      ]
+    },
+    {
+      "question_id": "TC10.1",
+      "question": "What specimen types are accepted for Bordetella pertussis and parapertussis PCR?",
+      "configuration": "A",
+      "sources": {
+        "S1": {
+          "text": "\n\n                 Specimen Requirements:\n\n                 The high sensitivity of amplification by polymerase chain reaction (PCR) requires the\n                   specimen to be processed in an environment in which contamination of the specimen by\n                     Bordetella pertussis or Bordetella parapertussis DNA is unlikely.\n\n                 Submit only 1 of the following specimens:",
+          "text_sha256": "d29be3bd02c0df0849bbb11ed704de76b744fdd3ea58ab3b67669555aa1f672f",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "508",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "07115795a10d97c657bac4d7af7afbef3558944a66e221f8909e89f8415f0dcb",
+            "page_number": 9.0,
+            "original_page_number": 509.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S2": {
+          "text": "  BPRPV  Bordetella pertussis and Bordetella parapertussis,\n     618299      Molecular Detection, PCR, Varies\n\n                 Specimen Requirements:",
+          "text_sha256": "1300e3f47344f4503c782458ddc29c3bfff99203953f272a07efba0e25f97263",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "508",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "7a13ffe314acb15a332411be00c35fa87722d7d73e850a7ab104f50acb7c412c",
+            "page_number": 9.0,
+            "original_page_number": 509.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S3": {
+          "text": "\n\n        Specimen Type        Temperature         Time\n         Varies                  Refrigerated (preferred) 7 days\n                            Ambient             7 days\n                              Frozen              7 days\n\n     CPT Code Information:\n\n      87798 x 2\n\n      87798 (if appropriate for government payers)\n\n",
+          "text_sha256": "946852198407e3548d4aa6884ba5329089b9320259a91718c75a21be79b196bb",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "509",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "f19e243f2d2ff2a70c24042e9820d359b2ff882460676c1d5210998bc0746ec6",
+            "page_number": 10.0,
+            "original_page_number": 510.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S4": {
+          "text": "\n\n                 Submit only 1 of the following specimens:\n\nCurrent as of October 17, 2026 1:28 pm CDT    800-533-1710 or 507-266-5700 or mayocliniclabs.com                Page 508",
+          "text_sha256": "2a84c8170537407ff10c55884c0666c7ddc553a24fecbbe4eb321b83f3e9bf41",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "508",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "b8483e124864a0a13180b21084c2ca1d2732459830efbae53d77adc04527d6db",
+            "page_number": 9.0,
+            "original_page_number": 509.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S5": {
+          "text": "Preferred:\n\n                  Specimen Type: Nasopharyngeal swab\n\n                     Supplies: Culture Swab - Liquid Stuarts/Single Swab (NP Swab) (T515)",
+          "text_sha256": "e271e5f999d1dd3d11a6fc075a681897aee5eb9d32f626015e50f165392e754f",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "509",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "6f381abb8cf2a10046586f00f67cb09d115ef4a59f4ef37ae0bc008f45f4c667",
+            "page_number": 10.0,
+            "original_page_number": 510.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        }
+      },
+      "selected_excerpts": []
+    },
+    {
+      "question_id": "TC10.1",
+      "question": "What specimen types are accepted for Bordetella pertussis and parapertussis PCR?",
+      "configuration": "B",
+      "sources": {
+        "S1": {
+          "text": "                 Specimen Requirements:\n\n                 The high sensitivity of amplification by polymerase chain reaction (PCR) requires the\n                   specimen to be processed in an environment in which contamination of the specimen by\n                     Bordetella pertussis or Bordetella parapertussis DNA is unlikely.\n\n                 Submit only 1 of the following specimens:\n\n",
+          "text_sha256": "e8c12a67e34150a6b89ecfe9a3d2d0959df82fb2fb7e9a46c5c169abe6ebb72a",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "508",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "5b50c153f13a3ede4d269597f73329b8ffe3abd85401b3649075dbef1cefe4b1",
+            "page_number": 9.0,
+            "original_page_number": 509.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S2": {
+          "text": "Preferred:\n\n                  Specimen Type: Nasopharyngeal swab\n\n                     Supplies: Culture Swab - Liquid Stuarts/Single Swab (NP Swab) (T515)",
+          "text_sha256": "e271e5f999d1dd3d11a6fc075a681897aee5eb9d32f626015e50f165392e754f",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "509",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "41799017e06515f2872aa0a76dd20fce3073d56f417b07b2b66dff5ec99cea49",
+            "page_number": 10.0,
+            "original_page_number": 510.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S3": {
+          "text": "\n\n                    Acceptable:\n\n                  Specimen Type: Nasopharyngeal (not throat) aspirate/wash or nasal aspirate/wash\n\n                   Container/Tube: Sterile container with a screw top cap (no transport media)\n\n                  Specimen Volume: Entire collection\n\n      Specimen Minimum Volume: 0.5 mL\n       Transport Temperature:\n\n",
+          "text_sha256": "0e1ceb6a309f1bf57aa15e4c6e751e5af9ce801df5749e497e2ff7623fd71c6d",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "509",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "7f98205d25a82a11c79974d02a09c204d95944d9ffcb012bc9c9e04773df1d20",
+            "page_number": 10.0,
+            "original_page_number": 510.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S4": {
+          "text": "\n\n                    Additional Information:\n\n                        1. Swab transport containers without charcoal must contain a pledget saturated with\n                        either Stuart's or Amies liquid media. Clear semi-solid/solid media is gel and will be\n                        rejected.\n\n                        2. Other swab or media types may be inhibitory to PCR testing and will be rejected.\n\n                    Acceptable:",
+          "text_sha256": "f9dfa273af8942bae69df0a232100f5f91c81c1b7728747af16af479ab9be59d",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "509",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "46527f1ec3bc190b481e382c4f7bd151e00c3034d2d27dcff7f73bb57a797338",
+            "page_number": 10.0,
+            "original_page_number": 510.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S5": {
+          "text": "        Specimen Type        Temperature         Time\n         Varies                  Refrigerated (preferred) 7 days\n                            Ambient             7 days\n                              Frozen              7 days\n",
+          "text_sha256": "d9336c925bc5eeb221107f7e11f7a417fa409fb4dc4756873c3533bab8aab66d",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "509",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "4cff0099bf6ed4d6f7674ed522cb4fb04815a42166954a1acf2860756b1f87df",
+            "page_number": 10.0,
+            "original_page_number": 510.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        }
+      },
+      "selected_excerpts": [
+        {
+          "source_id": "S2",
+          "quote": "Preferred:\n\n                  Specimen Type: Nasopharyngeal swab\n\n                     Supplies: Culture Swab - Liquid Stuarts/Single Swab (NP Swab) (T515)"
+        },
+        {
+          "source_id": "S3",
+          "quote": "\n\n                    Acceptable:\n\n                  Specimen Type: Nasopharyngeal (not throat) aspirate/wash or nasal aspirate/wash\n\n                   Container/Tube: Sterile container with a screw top cap (no transport media)\n\n                  Specimen Volume: Entire collection\n\n      Specimen Minimum Volume: 0.5 mL\n       Transport Temperature:\n\n"
+        }
+      ]
+    },
+    {
+      "question_id": "TC10.1",
+      "question": "What specimen types are accepted for Bordetella pertussis and parapertussis PCR?",
+      "configuration": "C",
+      "sources": {
+        "S2": {
+          "text": "  BPRPV  Bordetella pertussis and Bordetella parapertussis,\n     618299      Molecular Detection, PCR, Varies\n\n                 Specimen Requirements:",
+          "text_sha256": "1300e3f47344f4503c782458ddc29c3bfff99203953f272a07efba0e25f97263",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "508",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "7a13ffe314acb15a332411be00c35fa87722d7d73e850a7ab104f50acb7c412c",
+            "page_number": 9.0,
+            "original_page_number": 509.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S1": {
+          "text": "\n\n                 Specimen Requirements:\n\n                 The high sensitivity of amplification by polymerase chain reaction (PCR) requires the\n                   specimen to be processed in an environment in which contamination of the specimen by\n                     Bordetella pertussis or Bordetella parapertussis DNA is unlikely.\n\n                 Submit only 1 of the following specimens:",
+          "text_sha256": "d29be3bd02c0df0849bbb11ed704de76b744fdd3ea58ab3b67669555aa1f672f",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "508",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "07115795a10d97c657bac4d7af7afbef3558944a66e221f8909e89f8415f0dcb",
+            "page_number": 9.0,
+            "original_page_number": 509.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S6": {
+          "text": "\n\n                    Acceptable:\n\n                  Specimen Type: Nasopharyngeal (not throat) aspirate/wash or nasal aspirate/wash\n\n                   Container/Tube: Sterile container with a screw top cap (no transport media)\n\n                  Specimen Volume: Entire collection\n\n      Specimen Minimum Volume: 0.5 mL\n       Transport Temperature:",
+          "text_sha256": "0c4a4a14ca9158abbfa44874e49cb8a61c10dbcd4eff4f83624c87b2ca19fddd",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "509",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "3c4dc3d87cde5789e8020f46e6a751ef3d17461ff8ddb8c66b3092f40ba3a458",
+            "page_number": 10.0,
+            "original_page_number": 510.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S5": {
+          "text": "Preferred:\n\n                  Specimen Type: Nasopharyngeal swab\n\n                     Supplies: Culture Swab - Liquid Stuarts/Single Swab (NP Swab) (T515)",
+          "text_sha256": "e271e5f999d1dd3d11a6fc075a681897aee5eb9d32f626015e50f165392e754f",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "509",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "6f381abb8cf2a10046586f00f67cb09d115ef4a59f4ef37ae0bc008f45f4c667",
+            "page_number": 10.0,
+            "original_page_number": 510.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        },
+        "S7": {
+          "text": "\n\n                    Additional Information:\n\n                        1. Swab transport containers without charcoal must contain a pledget saturated with\n                        either Stuart's or Amies liquid media. Clear semi-solid/solid media is gel and will be\n                        rejected.\n\n                        2. Other swab or media types may be inhibitory to PCR testing and will be rejected.\n\n                    Acceptable:",
+          "text_sha256": "f9dfa273af8942bae69df0a232100f5f91c81c1b7728747af16af479ab9be59d",
+          "metadata": {
+            "test_code": "BPRPV",
+            "test_name": "Bordetella pertussis and Bordetella parapertussis, Molecular Detection, PCR, Varies",
+            "identity_context": "verified contiguous indexed page spans",
+            "document_id": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21",
+            "printed_catalog_page": "509",
+            "source_url": "https://mml-content.s3.amazonaws.com/print-on-demand/standard/Rochester/MayoTestCatalog-RochesterLaboratoryReferenceEdition-SortedByTestName-duplex-standard.pdf",
+            "corpus_type": "public",
+            "test_scope": "catalog",
+            "chunk_id": "fa9cbbba1c21537a3d009e85fec69323d05b9658bbe2ec428fc6c98e8e991d49",
+            "page_number": 10.0,
+            "original_page_number": 510.0,
+            "content_hash": "1606cf9fe9722101af96520196c3becce14757fe6f7ab65e2fb1bedb3fd14f21"
+          }
+        }
+      },
+      "selected_excerpts": [
+        {
+          "source_id": "S6",
+          "quote": "\n\n                    Acceptable:\n\n                  Specimen Type: Nasopharyngeal (not throat) aspirate/wash or nasal aspirate/wash\n\n                   Container/Tube: Sterile container with a screw top cap (no transport media)\n\n                  Specimen Volume: Entire collection\n\n      Specimen Minimum Volume: 0.5 mL\n       Transport Temperature:"
+        },
+        {
+          "source_id": "S5",
+          "quote": "Preferred:\n\n                  Specimen Type: Nasopharyngeal swab\n\n                     Supplies: Culture Swab - Liquid Stuarts/Single Swab (NP Swab) (T515)"
+        }
+      ]
+    }
+  ]
+}
